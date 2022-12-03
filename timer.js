@@ -19,7 +19,7 @@ function timer(seconds) {
             clearInterval(contagem);
             return;
         }
-        // display it
+        
         displayTimeLeft(SecondsRemaining);
     }, 1000);
 }
